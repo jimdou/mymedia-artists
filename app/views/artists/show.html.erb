@@ -63,7 +63,7 @@
         <td><%= artist.name %></td>
         <td><%= artist.description %></td>
         <td><%= artist.genre %></td>
-        <td><img src="<%= artist.image %>" alt="" width="100"></td>
+        <td><img src="<%= artist.image %>" alt=""></td>
         <!-- <td><%= artist.birthDate %></td>
         <td><%= artist.deathDate %></td>
         <td><%= artist.activeFrom %></td>
@@ -95,7 +95,7 @@
     <% @similar_artists_lastfm.each do |artist| %>
       <tr>
         <td><%= artist["name"] %></td>
-        <td><img src="<%= artist['image'][0]['#text'] %>" alt="" width="100"></td>
+        <td><img src="<%= artist['image'][0]['#text'] %>" alt=""></td>
       </tr>
     <% end %>
   </tbody>

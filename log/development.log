@@ -1282,7 +1282,7 @@ Did you mean?  similar_artists
     100:     <% @artist.similar_artists_lastfm.each do |artist| %>
     101:       <tr>
     102:         <td><%= artist.name %></td>
-    103:         <td><img src="<%= artist.image %>" alt="" width="100"></td>
+    103:         <td><img src="<%= artist.image %>" alt=""></td>
   
 app/views/artists/show.html.erb:100:in `_app_views_artists_show_html_erb___2097228076799868963_70144420995300'
   Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -1317,7 +1317,7 @@ Did you mean?  similar_artists
     100:     <% @artist.similar_artists_lastfm.each do |artist| %>
     101:       <tr>
     102:         <td><%= artist.name %></td>
-    103:         <td><img src="<%= artist.image %>" alt="" width="100"></td>
+    103:         <td><img src="<%= artist.image %>" alt=""></td>
   
 app/views/artists/show.html.erb:100:in `_app_views_artists_show_html_erb___2097228076799868963_70144376514360'
   Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -1360,7 +1360,7 @@ ActionView::Template::Error (undefined method `similarartists' for #<Hash:0x007f
     100:     <% @content.similarartists.artist.each do |artist| %>
     101:       <tr>
     102:         <td><%= artist.name %></td>
-    103:         <td><img src="<%= artist.image %>" alt="" width="100"></td>
+    103:         <td><img src="<%= artist.image %>" alt=""></td>
   
 app/views/artists/show.html.erb:100:in `_app_views_artists_show_html_erb___2097228076799868963_70144410697940'
   Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -1504,7 +1504,7 @@ ActionView::Template::Error (undefined method `each' for nil:NilClass):
     100:     <% @similar_artists.each do |artist| %>
     101:       <tr>
     102:         <td><%= artist.name %></td>
-    103:         <td><img src="<%= artist.image %>" alt="" width="100"></td>
+    103:         <td><img src="<%= artist.image %>" alt=""></td>
   
 app/views/artists/show.html.erb:100:in `_app_views_artists_show_html_erb___2097228076799868963_70144367026400'
   Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -1533,7 +1533,7 @@ ActionView::Template::Error (undefined method `name' for #<Hash:0x007f97885d07b0
     100:     <% @similar_artists_lastfm.each do |artist| %>
     101:       <tr>
     102:         <td><%= artist.name %></td>
-    103:         <td><img src="<%= artist.image %>" alt="" width="100"></td>
+    103:         <td><img src="<%= artist.image %>" alt=""></td>
     104:         <td><%= link_to 'Show', artist %></td>
     105:         <td><%= link_to 'Edit', edit_artist_path(artist) %></td>
   
@@ -1670,7 +1670,7 @@ Did you mean?  similar_artists
     100:     <% @artist.similar_artists_lastfm.each do |artist| %>
     101:       <tr>
     102:         <td><%= artist.name %></td>
-    103:         <td><img src="<%= artist.image %>" alt="" width="100"></td>
+    103:         <td><img src="<%= artist.image %>" alt=""></td>
   
 app/views/artists/show.html.erb:100:in `_app_views_artists_show_html_erb___2097228076799868963_70144421935340'
   Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
