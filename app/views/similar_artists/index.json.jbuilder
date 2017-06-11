@@ -1,0 +1,1 @@
+json.array! @similar_artists, partial: 'similar_artists/similar_artist', as: :similar_artist

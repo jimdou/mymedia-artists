@@ -1,0 +1,2 @@
+json.extract! similar_artist, :id, :name, :description, :genre, :image, :birthDate, :deathDate, :activeFrom, :activeUntil, :artist_id, :created_at, :updated_at
+json.url similar_artist_url(similar_artist, format: :json)

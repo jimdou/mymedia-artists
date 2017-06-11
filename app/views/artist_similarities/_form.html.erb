@@ -1,0 +1,27 @@
+<%= form_for(artist_similarity) do |f| %>
+  <% if artist_similarity.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(artist_similarity.errors.count, "error") %> prohibited this artist_similarity from being saved:</h2>
+
+      <ul>
+      <% artist_similarity.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :artist_id %>
+    <%= f.text_field :artist_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :similar_artist_id %>
+    <%= f.text_field :similar_artist_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

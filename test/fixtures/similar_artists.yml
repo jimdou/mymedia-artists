@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  genre: MyString
+  image: MyString
+  birthDate: 2017-06-10 20:27:21
+  deathDate: 2017-06-10 20:27:21
+  activeFrom: 2017-06-10 20:27:21
+  activeUntil: 2017-06-10 20:27:21
+  artist_id: 1
+
+two:
+  name: MyString
+  description: MyString
+  genre: MyString
+  image: MyString
+  birthDate: 2017-06-10 20:27:21
+  deathDate: 2017-06-10 20:27:21
+  activeFrom: 2017-06-10 20:27:21
+  activeUntil: 2017-06-10 20:27:21
+  artist_id: 1

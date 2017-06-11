@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @similar_artist.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @similar_artist.description %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @similar_artist.genre %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @similar_artist.image %>
+</p>
+
+<p>
+  <strong>Birthdate:</strong>
+  <%= @similar_artist.birthDate %>
+</p>
+
+<p>
+  <strong>Deathdate:</strong>
+  <%= @similar_artist.deathDate %>
+</p>
+
+<p>
+  <strong>Activefrom:</strong>
+  <%= @similar_artist.activeFrom %>
+</p>
+
+<p>
+  <strong>Activeuntil:</strong>
+  <%= @similar_artist.activeUntil %>
+</p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @similar_artist.artist_id %>
+</p>
+
+<%= link_to 'Edit', edit_similar_artist_path(@similar_artist) %> |
+<%= link_to 'Back', similar_artists_path %>

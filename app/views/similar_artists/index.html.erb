@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Similar Artists</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Genre</th>
+      <th>Image</th>
+      <th>Birthdate</th>
+      <th>Deathdate</th>
+      <th>Activefrom</th>
+      <th>Activeuntil</th>
+      <th>Artist</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @similar_artists.each do |similar_artist| %>
+      <tr>
+        <td><%= similar_artist.name %></td>
+        <td><%= similar_artist.description %></td>
+        <td><%= similar_artist.genre %></td>
+        <td><%= similar_artist.image %></td>
+        <td><%= similar_artist.birthDate %></td>
+        <td><%= similar_artist.deathDate %></td>
+        <td><%= similar_artist.activeFrom %></td>
+        <td><%= similar_artist.activeUntil %></td>
+        <td><%= similar_artist.artist_id %></td>
+        <td><%= link_to 'Show', similar_artist %></td>
+        <td><%= link_to 'Edit', edit_similar_artist_path(similar_artist) %></td>
+        <td><%= link_to 'Destroy', similar_artist, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Similar Artist', new_similar_artist_path %>
+<%= link_to 'Back', root_path %>

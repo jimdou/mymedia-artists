@@ -1,0 +1,1 @@
+json.partial! "similar_artists/similar_artist", similar_artist: @similar_artist
