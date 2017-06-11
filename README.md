@@ -1,24 +1,22 @@
-# README
+Mymedia - Home assignment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+THe following URLs work in both HTML and JSON:
 
-Things you may want to cover:
+* GET /artists
 
-* Ruby version
+* GET /artists/:id
 
-* System dependencies
+* POST /artists
 
-* Configuration
+* GET /artists/random?limit=1
 
-* Database creation
 
-* Database initialization
+OR
 
-* How to run the test suite
+* GET /artists.json
 
-* Services (job queues, cache servers, search engines, etc.)
+* GET /artists/:id.json
 
-* Deployment instructions
+* POST /artists.json
 
-* ...
+* GET /artists/random.json?limit=1
